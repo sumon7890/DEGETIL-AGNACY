@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+*
+{
+	margin:0;
+	padding: 0;
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0 important!;
+}
+.navbar-brand img
+{
+	height: 90px;
+	padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 20px;
+}
+.active-Home{
+	border-bottom: 2px solid #fff;
+
+}
+ .nav-link:hover{
+ 	border-bottom: 2px solid #fff;
+ }
+#navbarNav .navbar-nav li a
+{
+	color: #fff;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px;
+}
+.navbar-toggler{
+	outline: none;
+}
+/*--- Banner Section---*/
+
+.banner{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	color: #fff;
+	top:5%;
+}
+.pomo-titel{
+	font-size: 40px;
+	font-weight: 60px;
+	margin-top: 30px;
+}
+.play-btn img{
+	width: 45px;
+	margin:20px;
+
+}
+.play-btn {
+	color: #fff;
+	text-decoration: none;
+}
+.img-fluid{
+	padding-bottom: 20px;
+	height: 300px;
+}
+/*------- about as -----*/
+.about_us{
+	margin-top: 40px;
+}
+.te h2{
+	color: darkorange;
+	font-weight: 600;
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 20px;
+}
+.te p{
+	text-align: justify;
+	text-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,0.2);
+}
+.btn-primary{
+	margin-top: 20px;
+	padding: 10px;
+	color: #fff;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	margin-bottom: 40px;
+}
+.titel{
+	text-align: center;
+	color: darkorange;
+	font-weight: 600;
+	font-family: 'Libre Baskerville', serif;
+}
+.subtital {
+	text-align: center;
+}
+.secvice_box{
+	margin-top: 10px;
+	padding: 0 35px;
+	cursor: pointer;
+	margin-bottom: :10px;
+}
+.secvice_box img{
+	width: 60px;
+	height: 65px;
+	margin-bottom: 45px;
+}
+.secvice_box h6{
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.secvice_box p{
+	color: #808080;
+	font-size: 14px;
+}
+.fa-arrow-right{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+.secvice_box:hover{
+	background: #6900d1;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 0 15px 15px 2px rgba(213,213,213,0,5);
+}
+.secvice_box p:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+.printing{
+	margin:200px 0;
+}
+.printing img{
+	max-width: 77%;
+	cursor: pointer;
+
+}
+.printing h3{
+	margin-top: 100px;
+	font-weight: bold;
+	line-height: 60%;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.printing p{
+	margin-top: 25px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 18px;
+}
+.printing a{
+	width: 170px;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 10px;
+	background: #6900d1;
+	box-shadow: 0 15px 15px 2px rgba(204,204,204,0,5);
+	margin-bottom: 30px;
+}
+.Enplore{
+	margin:200px 0;
+}
+.Enplore img{
+	max-width: 77%;
+	cursor: pointer;
+
+}
+.Enplore h3{
+	margin-top: 100px;
+	font-weight: bold;
+	line-height: 60%;
+
+	font-family: 'Libre Baskerville', serif;
+}
+
+.Enplore p{
+	margin-top: 25px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 18px;
+}
+.Enplore a{
+	width: 170px;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 10px;
+	background: #6900d1;
+	box-shadow: 0 15px 15px 2px rgba(204,204,204,0,5);
+	margin-bottom: 30px;
+}
+.review
+{
+	margin: 100px 0;
+}
+.carousel-item img{
+	width: 150px;
+	border-radius: 30%;
+}
+.carousel-item{
+	text-align: center;
+	height: 400px;
+}
+.carousel-item .carousel-caption {
+	z-index: -1;
+	box-shadow: 0 0 15px 1px rgba(166,163,223,0,5);
+	border-radius:5px;
+	margin-bottom: 50px;
+	border: 1px solid #4E4E4E;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.carousel-caption h5{
+	color: darkorange;
+	font-weight:bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.carousel-caption p{
+	font-size: 18px;
+	font-weight: 900;
+	color:#0000ff;
+
+}
+.footer{
+	padding-top: 20px;
+	color: darkorange;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+
+.footer button{
+	padding: 6px;
+	width: 180px;
+	border: 1px solid #fff;
+	display: block;
+	background: transparent;
+	margin: auto;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer button:hover{
+	background: #1001c9;
+}
+
+.footer input{
+	width: 60%;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	padding: 5px;
+	outline: none;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #fff;
+	margin-right: 10px;
+
+}
+.footer p{
+	text-shadow: 2px 2px 2px #defa22;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Libre Baskerville', serif;
+	background: #4e4e4e;
+
+}
+
+.box{
+	width: 40%;
+	
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.75);
+	padding-bottom: 10px;
+	margin:0 auto;
+	    margin-top: 157px;
+
+}
+
+.box h2{
+	color: darkorange;
+	font-weight:bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+.box a{
+	text-decoration: none;
+}
+.button-gp{
+	padding: 6px;
+	width: 180px;
+	border: 2px solid #fff;
+	display: block;
+	margin: auto;
+	font-size: 20px;
+	color:darkorange;
+	margin-bottom: 20px;
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	border-radius: 10px;
+	transition:3s;
+}
+
+.button-gp:hover{
+	background: #1001c9;
+}
+.form-control{
+	background:#4E4E4E;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
